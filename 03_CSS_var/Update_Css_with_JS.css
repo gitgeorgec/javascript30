@@ -1,0 +1,14 @@
+:root {
+	--spacing: 100px;
+	--blured: 10px;
+	--base: yellow;
+}
+
+body {
+	background: var(--base)
+}
+
+img {
+	padding: var(--spacing);
+	filter: blur(var(--blured));
+}

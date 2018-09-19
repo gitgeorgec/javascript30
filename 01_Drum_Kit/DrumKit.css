@@ -1,0 +1,44 @@
+body {
+	background-image: url(http://i.imgur.com/emvhOnb.jpg);
+	background-size: 100%;
+}
+
+
+.sound {
+	color: white;
+}
+
+.mid {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.key {
+	border:4px solid black;
+	border-radius: 5px;
+	margin: 1rem;
+	font-size: 1.5rem;
+	padding: 1rem 0.5rem;
+	transition: all 0.07s;
+	width: 100px;
+	text-align: center;
+	background: rgba(0,0,0,0.4);
+	text-shadow: 0 0 5px black; 
+	display: inline-block;
+}
+
+.playing {
+	transform: scale(1.2);
+	border-color: white;
+	box-shadow: 0 0 10px black; 
+}
+
+kbd {
+	font-size: 40px;
+	display: block;
+	color: white;
+}
