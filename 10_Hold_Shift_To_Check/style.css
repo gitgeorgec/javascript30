@@ -1,0 +1,32 @@
+body {
+	background-color: #ffc600;
+	font-family: sans-serif;
+}
+
+label {
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.container {
+	width: 30%;
+	margin: auto;
+	background-color: white;
+	border: 2px solid hsl(10, 100%, 50%);
+	box-shadow: 5px 5px rgba(0,0,0, 0.4);
+	border-radius: 4px
+}
+
+.checkitem {
+	display: flex;
+	height: 2em;
+	border: 1px solid rgba(0, 0 , 0, 0.2);
+	font-size: 1.4em;
+	align-items: center;
+}
+
+.checkbox {
+	width: 20px;
+	transform: scale(1.2);
+}
+
