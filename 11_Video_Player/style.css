@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.player {
+    margin:auto;
+    margin-top:2rem;
+    box-shadow:10px 10px 20px rgba(0,0,0,0.8);
+}
+
+.player:-webkit-full-screen {
+    max-width: none;
+    width: 100%;
+  }
+
+.progress {
+    flex:10;
+    position: relative;
+    display:flex;
+    height: 5;
+    flex-basis:100%;
+    transition:height 0.3s;
+    background:rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.progress_filled {
+    width:50%;
+    background:#ffc600;
+    flex:0;
+    flex-basis:0%;
+  }
+
+.player:hover .player__controls {
+    transform: translateY(0);
+  }
+.player:hover .progress {
+    height:15px;
+  }
