@@ -81,5 +81,13 @@
 
 ## day18
 
+## day19
+擷取攝影機，將影片修改呈現在頁面上並可存取螢幕快照
+### 新學到的東西
+* 使用 navigator.mediaDevice.getUserMedia() 取得用戶端裝置
+* canvas.getContext('2d') 的 .drawImage 可將影片或圖片繪製於 canvas 上
+* canvas.toDataURL 可將 canvas 畫面輸出
+* canvas.getContext('2d') 的 getImageData 可將圖面取出為 Uint8ClampedArray 
+* 操作 Uint8ClampedArray 達成影像濾鏡的效果
 
 

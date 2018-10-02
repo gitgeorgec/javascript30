@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webcam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Fun Camera</h1>
+    <div class="fliter">
+        <button class="redEffect">redEffect</button>
+        <button class="rgbSplit">rgbSplit</button>
+        <button class="greenScreen">greenScreen</button>
+        <button class="reset">reset</button>
+    </div>
+    
+    <div class="">
+        <canvas></canvas>
+        <video></video>
+        <button onclick=getsnapshoot() class="take_photo">take photo</button>
+        <div class="snapshoot"></div>
+    </div>
+
+    <audio class="snapsound" src="http://wesbos.com/demos/photobooth/snap.mp3" hidden></audio>
+</body>
+<script src="app.js"></script>
+</html>
