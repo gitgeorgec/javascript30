@@ -90,4 +90,9 @@
 * canvas.getContext('2d') 的 getImageData 可將圖面取出為 Uint8ClampedArray 
 * 操作 Uint8ClampedArray 達成影像濾鏡的效果
 
-
+## day20
+取用麥克風，辨識語音並將其顯示於頁面 偵測到特殊關鍵字可觸發特定行動
+### 新學到的東西
+* 以瀏覽器上的 SpeechRecognition 功能辨識語音
+* 以 includes 判斷字串內是否含有特定字串
+* contenteditable 屬性使內容可編輯
