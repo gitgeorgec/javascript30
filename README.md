@@ -96,3 +96,14 @@
 * 以瀏覽器上的 SpeechRecognition 功能辨識語音
 * 以 includes 判斷字串內是否含有特定字串
 * contenteditable 屬性使內容可編輯
+
+## day21
+做出指南針，顯示當前速度
+### 新學到的東西
+* 以瀏覽器上的 navigator.geolocation 可抓取用戶當前位置資訊
+
+## day22
+滑鼠指標對特定目標產生聚光燈效果，聚光燈會從上個目標移動到下個目標
+### 新學到的東西
+* 物件可用 getBoundingClientRect 來取得位置
+* 位置處理要考慮視窗移動後的結果
