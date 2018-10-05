@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    background: #fceabb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(165, 164, 164);
+}
+
+header {
+    text-align: center;
+    background: rgb(16, 156, 181);
+    color: white;
+    margin: 0 0 5px 0;
+    box-shadow: 2px 2px 10px rgb(165, 164, 164);
+    text-shadow: 1px 1px 10px rgb(135, 135, 135);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+select {
+    font-size: 1.1rem;
+}
+
+.content div {
+    display: flex;
+    justify-content: space-between;
+}
+textarea{
+    margin:5px 0;
+    background: #F7F7F7;
+    font-size: 1.2rem;
+}
+
+button {
+    width: 48%;
+    height: 2.5rem;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 10px rgb(135, 135, 135);
+    background: rgb(16, 156, 181);
+    color: white;
+    border-radius: 5px;
+    margin: 5px 0;
+    box-shadow: 2px 2px 10px rgb(165, 164, 164);
+}
+

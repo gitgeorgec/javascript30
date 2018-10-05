@@ -76,7 +76,6 @@
 ### 新學到的東西
 * 在滑鼠移置物件上方時，計算滑鼠位置
 
-
 ## day17
 
 ## day18
@@ -107,3 +106,9 @@
 ### 新學到的東西
 * 物件可用 getBoundingClientRect 來取得位置
 * 位置處理要考慮視窗移動後的結果
+
+## day23
+將輸入的文字念出來，可選擇語言並改變讀速與音高
+### 新學到的東西
+* 以瀏覽器上的 SpeechSynthesis 朗讀文字
+* Safari 上的 SpeechSynthesis 不支援 voiceChange 事件
