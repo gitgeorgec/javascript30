@@ -13,7 +13,7 @@ header {
 header h1{
     color:white;
     text-shadow: 2px 2px 0 #777777;
-    font-size: 8.5rem;
+    font-size: 6.5rem;
     text-align: center;
 }
 
@@ -23,15 +23,18 @@ nav {
     color: white;
     align-items: center;
     margin:0;
+    transition: 0.5s;
+    height: 3rem;
 }
 
-nav h1{
-
+nav div {
     padding: 10px;
     margin: 0;
     width:0;
     color: #000;
     transition: 0.5s;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 nav ul {
@@ -62,4 +65,20 @@ section p {
 nav h1:hover{
     width: 6rem;
     color: white;
+}
+
+.up {
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+.open {
+    width: 5rem;
+    color:white;
+}
+
+.addtop {
+    margin-top: 2rem;
 }

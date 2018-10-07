@@ -112,3 +112,8 @@
 ### 新學到的東西
 * 以瀏覽器上的 SpeechSynthesis 朗讀文字
 * Safari 上的 SpeechSynthesis 不支援 voiceChange 事件
+
+## day24
+navbar 在畫面滑動時會固定於頁面最上方
+### 新學到的東西
+* 畫面滾動時，若改變 layout 畫面要做適度調整來優化使用者體驗
