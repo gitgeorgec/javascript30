@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background: #cdcdcd
+}
+
+header {
+    background: url("https://images.unsplash.com/photo-1538729247193-1256701f9ef5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ff548421755d700a1fdfeec098c32345&auto=format&fit=crop&w=1500&q=80") center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    color:white;
+    text-shadow: 2px 2px 0 #777777;
+    font-size: 8.5rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    background: black;
+    color: white;
+    align-items: center;
+    margin:0;
+}
+
+nav h1{
+
+    padding: 10px;
+    margin: 0;
+    width:0;
+    color: #000;
+    transition: 0.5s;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    width: 60%;
+    margin: 0px auto;
+    background: white;
+    padding: 10px;
+}
+
+section p {
+    font-size: 1.4rem;
+}
+
+nav h1:hover{
+    width: 6rem;
+    color: white;
+}
