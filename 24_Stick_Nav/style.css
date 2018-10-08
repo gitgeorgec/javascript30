@@ -25,13 +25,12 @@ nav {
     margin:0;
     transition: 0.5s;
     height: 3rem;
+    padding:0 20px;
 }
 
-nav div {
-    padding: 10px;
-    margin: 0;
+.logo {
     width:0;
-    color: #000;
+    overflow: hidden;
     transition: 0.5s;
     font-size: 1.2rem;
     font-weight: bold;
@@ -71,10 +70,9 @@ nav h1:hover{
     position: fixed;
     width: 100%;
     top: 0;
-
 }
 
-.open {
+.up .logo {
     width: 5rem;
     color:white;
 }

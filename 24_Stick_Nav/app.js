@@ -8,11 +8,9 @@ function navfix(){
     // console.log(header.offsetTop+header.offsetHeight)
     if(scrollY >header.offsetTop+header.offsetHeight){
         nav.classList.add('up')
-        logo.classList.add('open')
         section.classList.add('addtop')
     }else {
         nav.classList.remove('up')
-        logo.classList.remove('open')
         section.classList.remove('addtop')
     }
 }

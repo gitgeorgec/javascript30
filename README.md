@@ -117,3 +117,13 @@
 navbar 在畫面滑動時會固定於頁面最上方
 ### 新學到的東西
 * 畫面滾動時，若改變 layout 畫面要做適度調整來優化使用者體驗
+
+## day25
+### 新學到的東西
+bubbling
+在巢狀包覆的狀態下，若父元素與子元素皆有監聽元素（addEventListener) 在監聽事件（如 click）被觸發時 ，則兩者皆會被觸發。觸發前會先抓取觸發元素，
+抓取順序為 父元素>子元素 而觸發順序為 子元素>父元素。
+可在 addEventListener 第三個參數中以物件形式增加 {capture: true} 使觸發順序改為 父元素>子元素
+可在事件中增加 e.stopPropagation 來阻止事件觸發的傳遞。
+
+addEventListener第三個參數中以物件形式增加 {once: true} 可使事件只會觸發一次
