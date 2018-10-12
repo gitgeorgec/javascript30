@@ -24,6 +24,8 @@ h1 {
     background: #ffffff;
     user-select: none;
     cursor: pointer;
+    perspective: 800px;
+    padding:20px; 
 }
 
 .active{
@@ -34,22 +36,21 @@ h1 {
 .item {
     min-width:300px;
     height: 300px;
-    margin: 10px;
     font-size: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
 }
 
-.item:hover{
-    transform: scale(1.05);
-    box-shadow: 10px 10px 10px black;
-}
+
 
 .item:nth-child(2n){
-    background: rgb(247, 223, 41);
+    background: rgb(247, 199, 41);
 }
 
 .item:nth-child(2n+1){
-    background: rgb(96, 233, 37);
+    background: rgb(81, 199, 31);
 }
+.item:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); }
+.item:nth-child(odd) { transform: scaleX(1.31) rotateY(-40deg); }

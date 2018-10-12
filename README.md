@@ -132,12 +132,20 @@ addEventListener第三個參數中以物件形式增加 {once: true} 可使事�
 ## day26
 滑鼠指標對特定目標產生下拉選單，選單會從上個目標移動到下個目標並改變內容
 ### 新學到的東西
-opacity 改變要在確實存在的元素才有效果(display:none 是無效的)
+* opacity 改變要在確實存在的元素才有效果(display:none 是無效的)
 
 
 ## day27
 點選有滾軸物件後拖曳滑鼠讓該滾軸滑動而不用使用滑鼠上的滾輪
 ### 新學到的東西
-flex 物件若要產生滾軸 內容物須設置最小寬度(min-width)
-user-select: none 可使點擊拖曳時不會反白選取物件
-nth-child(2n) 可設定偶數物件
+* transform: rotateY() 使用於物件時要搭配 perspective 來達到立體視覺效果
+* flex 物件若要產生滾軸 內容物須設置最小寬度(min-width)
+* user-select: none 可使點擊拖曳時不會反白選取物件
+* nth-child(2n) 可設定偶數物件
+
+
+## day28
+指標於指定滾軸移動時 改變影片播放速度
+ ### 新學到的東西
+ * 物件位置與寬高可由 .offsetHeight 等方式擷取
+ * video 物件增加 contorl 屬性會顯示播放功能按鍵
