@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    background: linear-gradient(to top,rgb(86, 49, 220), rgb(1, 78, 244));
+    height: 100vh;
+}
+nav {
+    display: flex;
+    flex-grow: 1;
+    background: linear-gradient(to top,rgb(65, 147, 223), rgb(1, 78, 244));
+    font-size: 2rem;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-grow: 1;
+    margin: 0;
+    align-items: auto;
+}
+
+nav ul li{
+    display: flex;
+    padding: 0;
+    flex-grow: 1;
+    color:white;
+    margin: 10px;
+    cursor: pointer;
+}
+
+nav ul li:active{
+    color: black;
+}
+
+nav form input {
+    display: flex;
+    font-size: inherit;
+    height: 100%;
+    padding:0 0 0 10px;
+    border: 0;
+}
+
+.container {
+    width:60%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.timerDisplay {
+    width:100%;
+    font-size: 12rem;
+    color: white;
+    text-align: center;
+    margin-top: 20px 
+}
+
+.endTime{
+    width:100%;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    word-wrap: none;
+}
+
+.warning {
+    animation: redcode;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
+@keyframes redcode {
+    0%{
+        background: red
+    }
+
+    50%{
+        background: rgba(22, 22, 22, 0.207)
+    }
+
+    100%{
+        background: red
+    }
+}
+
+@media screen and (max-width: 1000px){
+    nav{
+        font-size: 1rem;
+    }
+    .timerDisplay {
+        font-size: 6rem;
+        margin-top: 10px 
+    }
+    .endTime{
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    nav{
+        font-size: 10px;
+    }
+    .timerDisplay {
+        font-size: 4rem;
+        margin-top: 10px 
+    }
+    .endTime{
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+}
