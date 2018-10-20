@@ -12,7 +12,6 @@ function handlemouseEnter(){
       } ,10);
     const dropdown = this.querySelector(".dropdown")
     const dropdownCoords =dropdown.getBoundingClientRect()
-    const navcoords = navbar.getBoundingClientRect()
     const coord = {
         width:dropdownCoords.width,
         height:dropdownCoords.height,

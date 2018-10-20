@@ -41,16 +41,16 @@ body {
 }
 
 .navbar>ul{
-    width: 70%;
+    width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0;
 }
 
 .navbar nav>ul{
     width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 a {
@@ -87,7 +87,7 @@ ul {
 }
 
 .dropdown__developers{
-    width: 200px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,6 +99,7 @@ ul {
 }
 
 .navbar__item{
+    width: 300px;
     position: relative;
 }
 
